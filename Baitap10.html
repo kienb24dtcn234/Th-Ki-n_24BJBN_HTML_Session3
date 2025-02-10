@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <form action="/ceochutich.com">
+        <label for="name">Họ tên:</label>
+        <input type="text" id="name" required><br>
+        <label for="date">Ngày sinh:</label>
+        <input type="date" id="date"><br>
+        <label for="gender"> Giới tính:</label>
+        <input type="radio" name="gender" value="Man">Nam
+        <input type="radio" name="gender" value="women">Nữ <br>
+        <label for="phone">Số điện thoại:</label>
+        <input type="number" required> <br>
+        <label for="email" id="email">Email:</label>
+        <input type="email" required id="email"> <br>
+        <label for="tencongti">Tên công ty:</label>
+        <input type="text" id="tencongti"><br>
+        <label for="vaitro">Vai trò trong công ty:</label>
+        <select name="vatro">
+        <option value="gd">Giám đốc điều hành(CEO)</option>
+        <option value="tv">Thành viên</option>
+        <option value="tp">Trưởng phòng</option>
+        </select><br>
+        <label for="quymo">Quy mô công ty:</label>
+        <select name="quymo">
+        <option value="dnl">Doanh nghiệp lớn</option>
+        <option value="dnn">Doanh nghiệp nhỏ</option>
+        <option value="xn">Xí nghiệp</option>
+        </select><br>
+        <label for="nghanhnghe">Nghành nghề công ty :</label>
+        <input type="text" id="nghanhnghe" required><br>
+        <label for="lido">Lý do tham gia câu lạc bộ:</label>
+        <textarea name="lido" rows="2"></textarea><br>
+        <label for="kinhnghiem">Kinh nghiệm lãnh đạo:</label>
+        <textarea name="kkinhnghiem" rows="2"></textarea><br>
+        <label for="muctieu">Mục tiêu khi tham gia câu lạc bộ:</label>
+        <textarea name="muctieu" rows="2"></textarea><br>
+        <label for="chuongtrinh">Chương trình sự kiện mong muốn tham gia:</label>
+        <input type="checkbox" id="chuongtrinh" name="networking">Networking
+        <input type="checkbox" id="chuongtrinh" name="workshop">Workshop
+        <input type="checkbox" id="chuongtrinh" name="hoithao">Hội thảo<br>
+        <label for="dangkibantin">Đăng kí nhận bản tin:</label>
+        <input type="radio" name="dangkibantin" value="co">Có<br>
+        <button type="submit">Đăng kí hội viên </button>
+    </form>
+    </p>
+</body>
+</html>
